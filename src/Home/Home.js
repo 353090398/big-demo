@@ -8,7 +8,7 @@ class Home extends React.Component {
           <div className="home-item">
             <h2>Hi I'm <span>SuMengYing</span></h2>
             <p>WEB DEVELOPER</p>
-            <button className="home-btn"><a href="#">HIRE ME</a></button>
+            <button className="home-btn"><a href="https://github.com/353090398">HIRE ME</a></button>
           </div>
         </div>
       </div>
