@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 function getJson() {
-  let address = `https://raw.githubusercontent.com/newming/demodata/master/card.json?${Math.random()}`;
+  let address = `https://raw.githubusercontent.com/353090398/big-demo/master/demo.json?${Math.random()}`;
   return axios.get(address)
     .then( (res) => (
       { getJson:res.data }
@@ -22,4 +22,4 @@ function getMd(add) {
     });
 }
 
-// export { searchGit,getJson,getMd };
+export { getJson,getMd };

@@ -126,6 +126,7 @@
     border-radius:10px;
     color:#ff4081;
     border:1px solid #ff4081;
+    font-size: 14px;
 }
 .blog-btn:hover{
     text-decoration: none;
