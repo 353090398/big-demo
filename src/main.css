@@ -42,7 +42,7 @@
 .nav-footer a{
   color: #fff;
   text-decoration: none;
-  border-right: 1px solid #fff;
+  border-right: 1px solid #567;
   flex-grow: 1;
   padding: 14px 0;
 }
@@ -65,7 +65,7 @@
   color: #fff;
   font-size: 20px;
   text-decoration: none;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #567;
 }
 .content-main{
   flex-grow: 1;
@@ -117,3 +117,18 @@
 .home-btn:hover{
   background-color: #256;
 }
+.blog-btn{
+    display:block;
+    width:16%;
+    height:32px;
+    text-align:center;
+    line-height:32px;
+    border-radius:10px;
+    color:#ff4081;
+    border:1px solid #ff4081;
+}
+.blog-btn:hover{
+    text-decoration: none;
+    background-color:#ff4081;
+    color:#fff;
+  }

@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
+import { Link } from 'react-router';
 
 class BlogCards extends React.Component {
   render () {
@@ -34,24 +35,15 @@ class BlogCards extends React.Component {
         fontSize:'16px',
         marginBottom:'20px'
       },
-      btn:{
-        display:'block',
-        width:'16%',
-        height:'32px',
-        textAlign:'center',
-        lineHeight:'32px',
-        borderRadius:'10px',
-        // textDecoration: 'none',
-        color:'#ff4081',
-      }
     }
+    let address = `item/${this.props.url}`
     return(
       <div style={styles.root}>
         <div style={styles.index}><span style={styles.num}>{this.props.index}</span></div>
         <div style={styles.content}>
           <p style={styles.title}>{this.props.title}</p>
           <p style={styles.desc}>{this.props.desc}</p>
-          <a href="#" style={styles.btn}>阅读更多</a>
+          <Link to={address} className="blog-btn">阅读更多</Link>
         </div>
       </div>
     )
@@ -62,5 +54,10 @@ BlogCards.defaultProps={
   title:'我是标题',
   desc:'我是介绍',
 }
+BlogCards.propTypes = {
+  index: PropTypes.number.isRequired,
+  title: PropTypes.string.isRequired,
+  desc: PropTypes.string.isRequired
+};
 
 export default BlogCards;

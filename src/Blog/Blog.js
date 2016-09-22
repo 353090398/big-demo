@@ -2,10 +2,10 @@ import React from 'react';
 import BlogCards from '../components/BlogCards';
 
 let data=[
-  {index:1,title:'aaaaaa',desc:'akfhalkfhakslfhaskfjhsa'},
-  {index:2,title:'bbbbbb',desc:'akfhalkfhakslfhaskfjhsa'},
-  {index:3,title:'cccccc',desc:'akfhalkfhakslfhaskfjhsa'},
-  {index:4,title:'dddddd',desc:'akfhalkfhakslfhaskfjhsa'}
+  {index:1,title:'aaaaaa',desc:'akfhalkfhakslfhaskfjhsa',url:'a'},
+  {index:2,title:'bbbbbb',desc:'akfhalkfhakslfhaskfjhsa',url:'b'},
+  {index:3,title:'cccccc',desc:'akfhalkfhakslfhaskfjhsa',url:'c'},
+  {index:4,title:'dddddd',desc:'akfhalkfhakslfhaskfjhsa',url:'d'}
 ]
 
 class Blog extends React.Component {
