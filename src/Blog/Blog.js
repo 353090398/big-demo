@@ -21,7 +21,7 @@ class Blog extends React.Component {
   }
   render () {
     return(
-      <div style={{width:'100%',marginTop:'20px',color:'#727272',fontSize:'30px'}}>
+      <div style={{width:'100%',marginTop:'20px'}}>
         { this.state.wait ? 'please wait a minute...' : this.state.data.map( (item,i) => <BlogCards {...item} key={i}/> ) }
       </div>
     )
