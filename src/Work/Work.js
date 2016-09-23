@@ -22,8 +22,8 @@ class Work extends React.Component {
             <img src={Img1} />
           </a>
           <div className="work-text">
-            <h1>作品一</h1>
-            <p>2016.10.1</p>
+            <h1>作品二</h1>
+            <p>2016.10.2</p>
           </div>
         </div>
         <div className="work-card">
@@ -31,8 +31,8 @@ class Work extends React.Component {
             <img src={Img1} />
           </a>
           <div className="work-text">
-            <h1>作品一</h1>
-            <p>2016.10.1</p>
+            <h1>作品三</h1>
+            <p>2016.10.3</p>
           </div>
         </div>
         <div className="work-card">
@@ -40,8 +40,26 @@ class Work extends React.Component {
             <img src={Img1} />
           </a>
           <div className="work-text">
-            <h1>作品一</h1>
-            <p>2016.10.1</p>
+            <h1>作品四</h1>
+            <p>2016.10.4</p>
+          </div>
+        </div>
+        <div className="work-card">
+          <a href="http://github.com/353090398">
+            <img src={Img1} />
+          </a>
+          <div className="work-text">
+            <h1>作品五</h1>
+            <p>2016.10.5</p>
+          </div>
+        </div>
+        <div className="work-card">
+          <a href="http://github.com/353090398">
+            <img src={Img1} />
+          </a>
+          <div className="work-text">
+            <h1>作品六</h1>
+            <p>2016.10.6</p>
           </div>
         </div>
       </div>
