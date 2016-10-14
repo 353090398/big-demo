@@ -10,7 +10,7 @@ class Work extends React.Component {
       <div className="work-container">
         <div className="work-card">
           <a href="http://github.com/353090398">
-            <img src={Img1} />
+            <img src="http://odowb0dhc.bkt.clouddn.com/529abd7c48d5b91c39299382.jpg" />
           </a>
           <div className="work-text">
             <h1>作品一</h1>
@@ -19,7 +19,7 @@ class Work extends React.Component {
         </div>
         <div className="work-card">
           <a href="http://github.com/353090398">
-            <img src={Img1} />
+            <img src="http://odowb0dhc.bkt.clouddn.com/52eec21948d5b95d8333dcd8.jpg" />
           </a>
           <div className="work-text">
             <h1>作品二</h1>
@@ -28,7 +28,7 @@ class Work extends React.Component {
         </div>
         <div className="work-card">
           <a href="http://github.com/353090398">
-            <img src={Img1} />
+            <img src="http://odowb0dhc.bkt.clouddn.com/5350a90248d5b90464a89219.jpg" />
           </a>
           <div className="work-text">
             <h1>作品三</h1>
@@ -37,7 +37,7 @@ class Work extends React.Component {
         </div>
         <div className="work-card">
           <a href="http://github.com/353090398">
-            <img src={Img1} />
+            <img src="http://odowb0dhc.bkt.clouddn.com/5242B4C0D03590936B36EA86AA295E08.jpg" />
           </a>
           <div className="work-text">
             <h1>作品四</h1>
@@ -46,7 +46,7 @@ class Work extends React.Component {
         </div>
         <div className="work-card">
           <a href="http://github.com/353090398">
-            <img src={Img1} />
+            <img src="http://odowb0dhc.bkt.clouddn.com/5350a92948d5b9047267f1c7.jpg" />
           </a>
           <div className="work-text">
             <h1>作品五</h1>
@@ -55,7 +55,7 @@ class Work extends React.Component {
         </div>
         <div className="work-card">
           <a href="http://github.com/353090398">
-            <img src={Img1} />
+            <img src="http://odowb0dhc.bkt.clouddn.com/52a02f8a48d5b955fcd86d39.jpg" />
           </a>
           <div className="work-text">
             <h1>作品六</h1>
