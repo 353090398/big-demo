@@ -170,3 +170,28 @@
     padding-left: 10px;
     border-radius: 0px 0px 5px 5px;
   }
+
+
+  /*search样式*/
+.gitinfo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  margin:20px 10px;
+}
+.gitinfo-card{
+  width: 30%;
+  border-right: 1px solid #eee;
+}
+.gitinfo-card:last-child{
+  border-right: 0;
+}
+.gitinfo-card p{
+  line-height: 2.8em;
+}
+.gitinfo-card span{
+  line-height: 2.2em;
+  color:#E91E63;
+  font-weight: 600;
+}
