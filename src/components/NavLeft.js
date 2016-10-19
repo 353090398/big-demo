@@ -21,9 +21,14 @@ class NavLeft extends React.Component {
     })
   }
   render () {
+    let styles={
+      span:{
+        color: 'rgb(0, 188, 212)'
+      }
+    }
     return(
       <div className="nav-left">
-        <h3>{this.state.title}</h3>
+        <h3><span style={styles.span}>Kira@</span>{this.state.title}</h3>
         <Link activeStyle={{color:'#00bcd4'}} onlyActiveOnIndex={true} to="/"><span className="glyphicon glyphicon-home"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Home</Link>
         <Link activeStyle={{color:'#00bcd4'}} to="/work"><span className="glyphicon glyphicon-book"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Work</Link>
         <Link activeStyle={{color:'#00bcd4'}} to="/blog"><span className="glyphicon glyphicon-bookmark"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Blog</Link>
